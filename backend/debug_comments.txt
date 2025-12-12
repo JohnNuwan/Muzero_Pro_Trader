@@ -1,0 +1,566 @@
+Ticket: 0, Comment: 'Initial account balance'
+ -> UPDATED to Initial account balance
+Ticket: 351934448, Comment: 'Gemini V6 (0.67)'
+ -> UPDATED to Gemini V6 (0.67)
+Ticket: 351934451, Comment: 'Gemini V6 (0.98)'
+ -> UPDATED to Gemini V6 (0.98)
+Ticket: 351934454, Comment: 'Gemini V6 (0.96)'
+ -> UPDATED to Gemini V6 (0.96)
+Ticket: 351963122, Comment: 'Gemini V6 (1.00)'
+ -> UPDATED to Gemini V6 (1.00)
+Ticket: 351964486, Comment: 'Gemini V6 (0.99)'
+ -> UPDATED to Gemini V6 (0.99)
+Ticket: 351965814, Comment: 'Gemini V6 (0.77)'
+ -> UPDATED to Gemini V6 (0.77)
+Ticket: 351970295, Comment: 'Gemini V6 (0.99)'
+ -> UPDATED to Gemini V6 (0.99)
+Ticket: 351970297, Comment: 'Gemini V6 (1.00)'
+ -> UPDATED to Gemini V6 (1.00)
+Ticket: 351993037, Comment: 'Gemini V6 (0.99)'
+ -> UPDATED to Gemini V6 (0.99)
+Ticket: 352014696, Comment: 'Gemini V7 (0.61)'
+ -> UPDATED to Gemini V7 (0.61)
+Ticket: 352020631, Comment: 'Gemini V6 (0.95)'
+ -> UPDATED to Gemini V6 (0.95)
+Ticket: 352025794, Comment: 'Gemini V7 (0.63)'
+ -> UPDATED to Gemini V7 (0.63)
+Ticket: 352028059, Comment: 'Gemini V7 (0.74)'
+ -> UPDATED to Gemini V7 (0.74)
+Ticket: 352034604, Comment: 'Gemini V6 (1.00)'
+ -> UPDATED to Gemini V6 (1.00)
+Ticket: 352039680, Comment: 'Gemini V8 (0.77)'
+ -> UPDATED to Gemini V8 (0.77)
+Ticket: 352039685, Comment: 'Gemini V8 (0.73)'
+ -> UPDATED to Gemini V8 (0.73)
+Ticket: 352039688, Comment: 'Gemini V8 (0.88)'
+ -> UPDATED to Gemini V8 (0.88)
+Ticket: 352040231, Comment: 'Gemini V8 (0.66)'
+ -> UPDATED to Gemini V8 (0.66)
+Ticket: 352041077, Comment: 'Gemini V8 (0.76)'
+ -> UPDATED to Gemini V8 (0.76)
+Ticket: 352041646, Comment: 'Gemini V8 (0.75)'
+ -> UPDATED to Gemini V8 (0.75)
+Ticket: 352043387, Comment: 'Gemini V8 (0.74)'
+ -> UPDATED to Gemini V8 (0.74)
+Ticket: 352044056, Comment: 'Gemini V8 (0.78)'
+ -> UPDATED to Gemini V8 (0.78)
+Ticket: 352044912, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352044921, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352045107, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352045109, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352049091, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352056783, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352057271, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352060169, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352060243, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352067429, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352071552, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352071925, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352077313, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352079487, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352080111, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352080282, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352081456, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352086947, Comment: 'Gemini V8 '
+ -> UPDATED to Gemini V8 
+Ticket: 352095438, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352095544, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352096623, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352098087, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352098284, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352098558, Comment: 'Gemini V8 '
+ -> UPDATED to Gemini V8 
+Ticket: 352098677, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352099078, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352099186, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352099891, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352099971, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352101339, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352101826, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352102326, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352104480, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352105043, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352107431, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352107815, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352109742, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352110681, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352110912, Comment: 'Gemini V8 '
+ -> UPDATED to Gemini V8 
+Ticket: 352111036, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352111217, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352114101, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352115026, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352116975, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352117228, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352117411, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352117603, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352118928, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352119580, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352121526, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352122183, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352125123, Comment: 'Gemini V8 '
+ -> UPDATED to Gemini V8 
+Ticket: 352125299, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352125440, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352125598, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352125849, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352126332, Comment: 'Gemini V8 (Pyram'
+ -> UPDATED to Gemini V8 (Pyram
+Ticket: 352146754, Comment: ''
+Ticket: 352148555, Comment: 'Gemini V9 (0.68)'
+ -> UPDATED to Gemini V9
+Ticket: 352149921, Comment: 'Gemini V9 (0.86)'
+ -> UPDATED to Gemini V9
+Ticket: 352154807, Comment: 'Gemini V9 (0.85)'
+ -> UPDATED to Gemini V9
+Ticket: 352159031, Comment: ''
+Ticket: 352164033, Comment: 'Gemini V9 (0.86)'
+ -> UPDATED to Gemini V9
+Ticket: 352172278, Comment: 'Gemini V9 (0.85)'
+ -> UPDATED to Gemini V9
+Ticket: 352182110, Comment: 'Gemini V9 (0.88)'
+ -> UPDATED to Gemini V9
+Ticket: 352188623, Comment: 'Gemini V9 (0.79)'
+ -> UPDATED to Gemini V9
+Ticket: 352255188, Comment: 'Gemini V9 (0.66)'
+ -> UPDATED to Gemini V9
+Ticket: 352260668, Comment: 'Gemini V9 (0.86)'
+ -> UPDATED to Gemini V9
+Ticket: 352262389, Comment: 'Gemini V9 (0.90)'
+ -> UPDATED to Gemini V9
+Ticket: 352336237, Comment: 'Gemini V9 (0.86)'
+ -> UPDATED to Gemini V9
+Ticket: 352424765, Comment: 'Gemini V9 (0.91)'
+ -> UPDATED to Gemini V9
+Ticket: 352424789, Comment: 'Gemini V9 (0.86)'
+ -> UPDATED to Gemini V9
+Ticket: 352426113, Comment: 'Gemini V9 (0.86)'
+ -> UPDATED to Gemini V9
+Ticket: 352429942, Comment: 'Gemini V9 (0.90)'
+ -> UPDATED to Gemini V9
+Ticket: 352431354, Comment: ''
+Ticket: 352438605, Comment: 'Gemini V9 (0.73)'
+ -> UPDATED to Gemini V9
+Ticket: 352439158, Comment: 'Gemini V9 (0.86)'
+ -> UPDATED to Gemini V9
+Ticket: 352440845, Comment: ''
+Ticket: 352442799, Comment: 'Gemini V9 (0.71)'
+ -> UPDATED to Gemini V9
+Ticket: 352442964, Comment: ''
+Ticket: 352445134, Comment: 'Gemini V9 (0.70)'
+ -> UPDATED to Gemini V9
+Ticket: 352445465, Comment: 'Gemini V9 (0.70)'
+ -> UPDATED to Gemini V9
+Ticket: 352456930, Comment: 'Gemini V9 (0.82)'
+ -> UPDATED to Gemini V9
+Ticket: 352458131, Comment: ''
+Ticket: 352463300, Comment: ''
+Ticket: 352471185, Comment: 'Gemini V9 (0.65)'
+ -> UPDATED to Gemini V9
+Ticket: 352473339, Comment: 'Gemini V9 (0.70)'
+ -> UPDATED to Gemini V9
+Ticket: 352488244, Comment: 'Gemini V9 (0.73)'
+ -> UPDATED to Gemini V9
+Ticket: 352491343, Comment: 'Gemini V9 (0.71)'
+ -> UPDATED to Gemini V9
+Ticket: 352508121, Comment: 'Gemini V9 (0.76)'
+ -> UPDATED to Gemini V9
+Ticket: 352581198, Comment: 'Gemini V9 (0.86)'
+ -> UPDATED to Gemini V9
+Ticket: 352604701, Comment: 'Gemini V9 (0.86)'
+ -> UPDATED to Gemini V9
+Ticket: 352606107, Comment: 'Gemini V9 (0.86)'
+ -> UPDATED to Gemini V9
+Ticket: 352606899, Comment: 'Gemini V9 (0.86)'
+ -> UPDATED to Gemini V9
+Ticket: 352636076, Comment: 'Gemini V12 Entry'
+Ticket: 352640325, Comment: 'Gemini V12 Entry'
+Ticket: 352641115, Comment: 'Gemini V12 Entry'
+Ticket: 352641559, Comment: 'Gemini V12 Entry'
+Ticket: 352645737, Comment: 'Gemini V12 Entry'
+Ticket: 352745539, Comment: 'Gemini V9 (0.92)'
+ -> UPDATED to Gemini V9
+Ticket: 352747668, Comment: 'Gemini V12 Entry'
+Ticket: 352748935, Comment: 'Gemini V9 (0.95)'
+ -> UPDATED to Gemini V9
+Ticket: 352760592, Comment: 'Gemini V9 (0.70)'
+ -> UPDATED to Gemini V9
+Ticket: 352760994, Comment: 'Gemini V9 (0.89)'
+ -> UPDATED to Gemini V9
+Ticket: 352761398, Comment: 'Gemini V9 (0.89)'
+ -> UPDATED to Gemini V9
+Ticket: 352761576, Comment: 'Gemini V9 (0.91)'
+ -> UPDATED to Gemini V9
+Ticket: 352762452, Comment: 'Gemini V9 (0.95)'
+ -> UPDATED to Gemini V9
+Ticket: 352772657, Comment: 'Gemini V9 (0.74)'
+ -> UPDATED to Gemini V9
+Ticket: 352790927, Comment: 'Gemini V9 (0.66)'
+ -> UPDATED to Gemini V9
+Ticket: 352928647, Comment: 'Gemini V9 (0.70)'
+ -> UPDATED to Gemini V9
+Ticket: 352929830, Comment: 'Gemini V9 (0.66)'
+ -> UPDATED to Gemini V9
+Ticket: 352948648, Comment: 'Gemini V9 (0.66)'
+ -> UPDATED to Gemini V9
+Ticket: 352960394, Comment: 'Gemini V9 (0.65)'
+ -> UPDATED to Gemini V9
+Ticket: 352961559, Comment: 'Gemini V9 (0.77)'
+ -> UPDATED to Gemini V9
+Ticket: 352972492, Comment: 'Gemini V9 (Pyram'
+ -> UPDATED to Gemini V9
+Ticket: 352989103, Comment: 'Gemini V9 (0.68)'
+ -> UPDATED to Gemini V9
+Ticket: 353009875, Comment: 'Gemini V9 (0.86)'
+ -> UPDATED to Gemini V9
+Ticket: 353029373, Comment: 'Gemini V9 (0.72)'
+ -> UPDATED to Gemini V9
+Ticket: 353038318, Comment: 'Gemini V9 (0.66)'
+ -> UPDATED to Gemini V9
+Ticket: 353067667, Comment: 'Gemini V9 (0.66)'
+ -> UPDATED to Gemini V9
+Ticket: 353187685, Comment: 'Gemini V9 (0.87)'
+ -> UPDATED to Gemini V9
+Ticket: 353202900, Comment: 'Gemini V9 (0.85)'
+Ticket: 0, Comment: 'Initial account balance'
+Ticket: 351934448, Comment: 'Gemini V6 (0.67)'
+Ticket: 351934451, Comment: 'Gemini V6 (0.98)'
+Ticket: 351934454, Comment: 'Gemini V6 (0.96)'
+Ticket: 351963122, Comment: 'Gemini V6 (1.00)'
+Ticket: 351964486, Comment: 'Gemini V6 (0.99)'
+Ticket: 351965814, Comment: 'Gemini V6 (0.77)'
+Ticket: 351970295, Comment: 'Gemini V6 (0.99)'
+Ticket: 351970297, Comment: 'Gemini V6 (1.00)'
+Ticket: 351993037, Comment: 'Gemini V6 (0.99)'
+Ticket: 352014696, Comment: 'Gemini V7 (0.61)'
+Ticket: 352020631, Comment: 'Gemini V6 (0.95)'
+Ticket: 352025794, Comment: 'Gemini V7 (0.63)'
+Ticket: 352028059, Comment: 'Gemini V7 (0.74)'
+Ticket: 352034604, Comment: 'Gemini V6 (1.00)'
+Ticket: 352039680, Comment: 'Gemini V8 (0.77)'
+Ticket: 352039685, Comment: 'Gemini V8 (0.73)'
+Ticket: 352039688, Comment: 'Gemini V8 (0.88)'
+Ticket: 352040231, Comment: 'Gemini V8 (0.66)'
+Ticket: 352041077, Comment: 'Gemini V8 (0.76)'
+Ticket: 352041646, Comment: 'Gemini V8 (0.75)'
+Ticket: 352043387, Comment: 'Gemini V8 (0.74)'
+Ticket: 352044056, Comment: 'Gemini V8 (0.78)'
+Ticket: 352044912, Comment: 'Gemini V8 (Pyram'
+Ticket: 352044921, Comment: 'Gemini V8 (Pyram'
+Ticket: 352045107, Comment: 'Gemini V8 (Pyram'
+Ticket: 352045109, Comment: 'Gemini V8 (Pyram'
+Ticket: 352049091, Comment: 'Gemini V8 (Pyram'
+Ticket: 352056783, Comment: 'Gemini V8 (Pyram'
+Ticket: 352057271, Comment: 'Gemini V8 (Pyram'
+Ticket: 352060169, Comment: 'Gemini V8 (Pyram'
+Ticket: 352060243, Comment: 'Gemini V8 (Pyram'
+Ticket: 352067429, Comment: 'Gemini V8 (Pyram'
+Ticket: 352071552, Comment: 'Gemini V8 (Pyram'
+Ticket: 352071925, Comment: 'Gemini V8 (Pyram'
+Ticket: 352077313, Comment: 'Gemini V8 (Pyram'
+Ticket: 352079487, Comment: 'Gemini V8 (Pyram'
+Ticket: 352080111, Comment: 'Gemini V8 (Pyram'
+Ticket: 352080282, Comment: 'Gemini V8 (Pyram'
+Ticket: 352081456, Comment: 'Gemini V8 (Pyram'
+Ticket: 352086947, Comment: 'Gemini V8 '
+Ticket: 352095438, Comment: 'Gemini V8 (Pyram'
+Ticket: 352095544, Comment: 'Gemini V8 (Pyram'
+Ticket: 352096623, Comment: 'Gemini V8 (Pyram'
+Ticket: 352098087, Comment: 'Gemini V8 (Pyram'
+Ticket: 352098284, Comment: 'Gemini V8 (Pyram'
+Ticket: 352098558, Comment: 'Gemini V8 '
+Ticket: 352098677, Comment: 'Gemini V8 (Pyram'
+Ticket: 352099078, Comment: 'Gemini V8 (Pyram'
+Ticket: 352099186, Comment: 'Gemini V8 (Pyram'
+Ticket: 352099891, Comment: 'Gemini V8 (Pyram'
+Ticket: 352099971, Comment: 'Gemini V8 (Pyram'
+Ticket: 352101339, Comment: 'Gemini V8 (Pyram'
+Ticket: 352101826, Comment: 'Gemini V8 (Pyram'
+Ticket: 352102326, Comment: 'Gemini V8 (Pyram'
+Ticket: 352104480, Comment: 'Gemini V8 (Pyram'
+Ticket: 352105043, Comment: 'Gemini V8 (Pyram'
+Ticket: 352107431, Comment: 'Gemini V8 (Pyram'
+Ticket: 352107815, Comment: 'Gemini V8 (Pyram'
+Ticket: 352109742, Comment: 'Gemini V8 (Pyram'
+Ticket: 352110681, Comment: 'Gemini V8 (Pyram'
+Ticket: 352110912, Comment: 'Gemini V8 '
+Ticket: 352111036, Comment: 'Gemini V8 (Pyram'
+Ticket: 352111217, Comment: 'Gemini V8 (Pyram'
+Ticket: 352114101, Comment: 'Gemini V8 (Pyram'
+Ticket: 352115026, Comment: 'Gemini V8 (Pyram'
+Ticket: 352116975, Comment: 'Gemini V8 (Pyram'
+Ticket: 352117228, Comment: 'Gemini V8 (Pyram'
+Ticket: 352117411, Comment: 'Gemini V8 (Pyram'
+Ticket: 352117603, Comment: 'Gemini V8 (Pyram'
+Ticket: 352118928, Comment: 'Gemini V8 (Pyram'
+Ticket: 352119580, Comment: 'Gemini V8 (Pyram'
+Ticket: 352121526, Comment: 'Gemini V8 (Pyram'
+Ticket: 352122183, Comment: 'Gemini V8 (Pyram'
+Ticket: 352125123, Comment: 'Gemini V8 '
+Ticket: 352125299, Comment: 'Gemini V8 (Pyram'
+Ticket: 352125440, Comment: 'Gemini V8 (Pyram'
+Ticket: 352125598, Comment: 'Gemini V8 (Pyram'
+Ticket: 352125849, Comment: 'Gemini V8 (Pyram'
+Ticket: 352126332, Comment: 'Gemini V8 (Pyram'
+Ticket: 352146754, Comment: ''
+Ticket: 352148555, Comment: 'Gemini V9 (0.68)'
+Ticket: 352149921, Comment: 'Gemini V9 (0.86)'
+Ticket: 352154807, Comment: 'Gemini V9 (0.85)'
+Ticket: 352159031, Comment: ''
+Ticket: 352164033, Comment: 'Gemini V9 (0.86)'
+Ticket: 352172278, Comment: 'Gemini V9 (0.85)'
+Ticket: 352182110, Comment: 'Gemini V9 (0.88)'
+Ticket: 352188623, Comment: 'Gemini V9 (0.79)'
+Ticket: 352255188, Comment: 'Gemini V9 (0.66)'
+Ticket: 352260668, Comment: 'Gemini V9 (0.86)'
+Ticket: 352262389, Comment: 'Gemini V9 (0.90)'
+Ticket: 352336237, Comment: 'Gemini V9 (0.86)'
+Ticket: 352424765, Comment: 'Gemini V9 (0.91)'
+Ticket: 352424789, Comment: 'Gemini V9 (0.86)'
+Ticket: 352426113, Comment: 'Gemini V9 (0.86)'
+Ticket: 352429942, Comment: 'Gemini V9 (0.90)'
+Ticket: 352431354, Comment: ''
+Ticket: 352438605, Comment: 'Gemini V9 (0.73)'
+Ticket: 352439158, Comment: 'Gemini V9 (0.86)'
+Ticket: 352440845, Comment: ''
+Ticket: 352442799, Comment: 'Gemini V9 (0.71)'
+Ticket: 352442964, Comment: ''
+Ticket: 352445134, Comment: 'Gemini V9 (0.70)'
+Ticket: 352445465, Comment: 'Gemini V9 (0.70)'
+Ticket: 352456930, Comment: 'Gemini V9 (0.82)'
+Ticket: 352458131, Comment: ''
+Ticket: 352463300, Comment: ''
+Ticket: 352471185, Comment: 'Gemini V9 (0.65)'
+Ticket: 352473339, Comment: 'Gemini V9 (0.70)'
+Ticket: 352488244, Comment: 'Gemini V9 (0.73)'
+Ticket: 352491343, Comment: 'Gemini V9 (0.71)'
+Ticket: 352508121, Comment: 'Gemini V9 (0.76)'
+Ticket: 352581198, Comment: 'Gemini V9 (0.86)'
+Ticket: 352604701, Comment: 'Gemini V9 (0.86)'
+Ticket: 352606107, Comment: 'Gemini V9 (0.86)'
+Ticket: 352606899, Comment: 'Gemini V9 (0.86)'
+Ticket: 352636076, Comment: 'Gemini V12 Entry'
+Ticket: 352640325, Comment: 'Gemini V12 Entry'
+Ticket: 352641115, Comment: 'Gemini V12 Entry'
+Ticket: 352641559, Comment: 'Gemini V12 Entry'
+Ticket: 352645737, Comment: 'Gemini V12 Entry'
+Ticket: 352745539, Comment: 'Gemini V9 (0.92)'
+Ticket: 352747668, Comment: 'Gemini V12 Entry'
+Ticket: 352748935, Comment: 'Gemini V9 (0.95)'
+Ticket: 352760592, Comment: 'Gemini V9 (0.70)'
+Ticket: 352760994, Comment: 'Gemini V9 (0.89)'
+Ticket: 352761398, Comment: 'Gemini V9 (0.89)'
+Ticket: 352761576, Comment: 'Gemini V9 (0.91)'
+Ticket: 352762452, Comment: 'Gemini V9 (0.95)'
+Ticket: 352772657, Comment: 'Gemini V9 (0.74)'
+Ticket: 352790927, Comment: 'Gemini V9 (0.66)'
+Ticket: 352928647, Comment: 'Gemini V9 (0.70)'
+Ticket: 352929830, Comment: 'Gemini V9 (0.66)'
+Ticket: 352948648, Comment: 'Gemini V9 (0.66)'
+Ticket: 352960394, Comment: 'Gemini V9 (0.65)'
+Ticket: 352961559, Comment: 'Gemini V9 (0.77)'
+Ticket: 352972492, Comment: 'Gemini V9 (Pyram'
+Ticket: 352989103, Comment: 'Gemini V9 (0.68)'
+Ticket: 353009875, Comment: 'Gemini V9 (0.86)'
+Ticket: 353029373, Comment: 'Gemini V9 (0.72)'
+Ticket: 353038318, Comment: 'Gemini V9 (0.66)'
+Ticket: 353067667, Comment: 'Gemini V9 (0.66)'
+Ticket: 353187685, Comment: 'Gemini V9 (0.87)'
+Ticket: 353202900, Comment: 'Gemini V9 (0.85)'
+Ticket: 0, Comment: 'Initial account balance'
+Ticket: 351934448, Comment: 'Gemini V6 (0.67)'
+Ticket: 351934451, Comment: 'Gemini V6 (0.98)'
+Ticket: 351934454, Comment: 'Gemini V6 (0.96)'
+Ticket: 351963122, Comment: 'Gemini V6 (1.00)'
+Ticket: 351964486, Comment: 'Gemini V6 (0.99)'
+Ticket: 351965814, Comment: 'Gemini V6 (0.77)'
+Ticket: 351970295, Comment: 'Gemini V6 (0.99)'
+Ticket: 351970297, Comment: 'Gemini V6 (1.00)'
+Ticket: 351993037, Comment: 'Gemini V6 (0.99)'
+Ticket: 352014696, Comment: 'Gemini V7 (0.61)'
+Ticket: 352020631, Comment: 'Gemini V6 (0.95)'
+Ticket: 352025794, Comment: 'Gemini V7 (0.63)'
+Ticket: 352028059, Comment: 'Gemini V7 (0.74)'
+Ticket: 352034604, Comment: 'Gemini V6 (1.00)'
+Ticket: 352039680, Comment: 'Gemini V8 (0.77)'
+Ticket: 352039685, Comment: 'Gemini V8 (0.73)'
+Ticket: 352039688, Comment: 'Gemini V8 (0.88)'
+Ticket: 352040231, Comment: 'Gemini V8 (0.66)'
+Ticket: 352041077, Comment: 'Gemini V8 (0.76)'
+Ticket: 352041646, Comment: 'Gemini V8 (0.75)'
+Ticket: 352043387, Comment: 'Gemini V8 (0.74)'
+Ticket: 352044056, Comment: 'Gemini V8 (0.78)'
+Ticket: 352044912, Comment: 'Gemini V8 (Pyram'
+Ticket: 352044921, Comment: 'Gemini V8 (Pyram'
+Ticket: 352045107, Comment: 'Gemini V8 (Pyram'
+Ticket: 352045109, Comment: 'Gemini V8 (Pyram'
+Ticket: 352049091, Comment: 'Gemini V8 (Pyram'
+Ticket: 352056783, Comment: 'Gemini V8 (Pyram'
+Ticket: 352057271, Comment: 'Gemini V8 (Pyram'
+Ticket: 352060169, Comment: 'Gemini V8 (Pyram'
+Ticket: 352060243, Comment: 'Gemini V8 (Pyram'
+Ticket: 352067429, Comment: 'Gemini V8 (Pyram'
+Ticket: 352071552, Comment: 'Gemini V8 (Pyram'
+Ticket: 352071925, Comment: 'Gemini V8 (Pyram'
+Ticket: 352077313, Comment: 'Gemini V8 (Pyram'
+Ticket: 352079487, Comment: 'Gemini V8 (Pyram'
+Ticket: 352080111, Comment: 'Gemini V8 (Pyram'
+Ticket: 352080282, Comment: 'Gemini V8 (Pyram'
+Ticket: 352081456, Comment: 'Gemini V8 (Pyram'
+Ticket: 352086947, Comment: 'Gemini V8 '
+Ticket: 352095438, Comment: 'Gemini V8 (Pyram'
+Ticket: 352095544, Comment: 'Gemini V8 (Pyram'
+Ticket: 352096623, Comment: 'Gemini V8 (Pyram'
+Ticket: 352098087, Comment: 'Gemini V8 (Pyram'
+Ticket: 352098284, Comment: 'Gemini V8 (Pyram'
+Ticket: 352098558, Comment: 'Gemini V8 '
+Ticket: 352098677, Comment: 'Gemini V8 (Pyram'
+Ticket: 352099078, Comment: 'Gemini V8 (Pyram'
+Ticket: 352099186, Comment: 'Gemini V8 (Pyram'
+Ticket: 352099891, Comment: 'Gemini V8 (Pyram'
+Ticket: 352099971, Comment: 'Gemini V8 (Pyram'
+Ticket: 352101339, Comment: 'Gemini V8 (Pyram'
+Ticket: 352101826, Comment: 'Gemini V8 (Pyram'
+Ticket: 352102326, Comment: 'Gemini V8 (Pyram'
+Ticket: 352104480, Comment: 'Gemini V8 (Pyram'
+Ticket: 352105043, Comment: 'Gemini V8 (Pyram'
+Ticket: 352107431, Comment: 'Gemini V8 (Pyram'
+Ticket: 352107815, Comment: 'Gemini V8 (Pyram'
+Ticket: 352109742, Comment: 'Gemini V8 (Pyram'
+Ticket: 352110681, Comment: 'Gemini V8 (Pyram'
+Ticket: 352110912, Comment: 'Gemini V8 '
+Ticket: 352111036, Comment: 'Gemini V8 (Pyram'
+Ticket: 352111217, Comment: 'Gemini V8 (Pyram'
+Ticket: 352114101, Comment: 'Gemini V8 (Pyram'
+Ticket: 352115026, Comment: 'Gemini V8 (Pyram'
+Ticket: 352116975, Comment: 'Gemini V8 (Pyram'
+Ticket: 352117228, Comment: 'Gemini V8 (Pyram'
+Ticket: 352117411, Comment: 'Gemini V8 (Pyram'
+Ticket: 352117603, Comment: 'Gemini V8 (Pyram'
+Ticket: 352118928, Comment: 'Gemini V8 (Pyram'
+Ticket: 352119580, Comment: 'Gemini V8 (Pyram'
+Ticket: 352121526, Comment: 'Gemini V8 (Pyram'
+Ticket: 352122183, Comment: 'Gemini V8 (Pyram'
+Ticket: 352125123, Comment: 'Gemini V8 '
+Ticket: 352125299, Comment: 'Gemini V8 (Pyram'
+Ticket: 352125440, Comment: 'Gemini V8 (Pyram'
+Ticket: 352125598, Comment: 'Gemini V8 (Pyram'
+Ticket: 352125849, Comment: 'Gemini V8 (Pyram'
+Ticket: 352126332, Comment: 'Gemini V8 (Pyram'
+Ticket: 352146754, Comment: ''
+Ticket: 352148555, Comment: 'Gemini V9 (0.68)'
+Ticket: 352149921, Comment: 'Gemini V9 (0.86)'
+Ticket: 352154807, Comment: 'Gemini V9 (0.85)'
+Ticket: 352159031, Comment: ''
+Ticket: 352164033, Comment: 'Gemini V9 (0.86)'
+Ticket: 352172278, Comment: 'Gemini V9 (0.85)'
+Ticket: 352182110, Comment: 'Gemini V9 (0.88)'
+Ticket: 352188623, Comment: 'Gemini V9 (0.79)'
+Ticket: 352255188, Comment: 'Gemini V9 (0.66)'
+Ticket: 352260668, Comment: 'Gemini V9 (0.86)'
+Ticket: 352262389, Comment: 'Gemini V9 (0.90)'
+Ticket: 352336237, Comment: 'Gemini V9 (0.86)'
+Ticket: 352424765, Comment: 'Gemini V9 (0.91)'
+Ticket: 352424789, Comment: 'Gemini V9 (0.86)'
+Ticket: 352426113, Comment: 'Gemini V9 (0.86)'
+Ticket: 352429942, Comment: 'Gemini V9 (0.90)'
+Ticket: 352431354, Comment: ''
+Ticket: 352438605, Comment: 'Gemini V9 (0.73)'
+Ticket: 352439158, Comment: 'Gemini V9 (0.86)'
+Ticket: 352440845, Comment: ''
+Ticket: 352442799, Comment: 'Gemini V9 (0.71)'
+Ticket: 352442964, Comment: ''
+Ticket: 352445134, Comment: 'Gemini V9 (0.70)'
+Ticket: 352445465, Comment: 'Gemini V9 (0.70)'
+Ticket: 352456930, Comment: 'Gemini V9 (0.82)'
+Ticket: 352458131, Comment: ''
+Ticket: 352463300, Comment: ''
+Ticket: 352471185, Comment: 'Gemini V9 (0.65)'
+Ticket: 352473339, Comment: 'Gemini V9 (0.70)'
+Ticket: 352488244, Comment: 'Gemini V9 (0.73)'
+Ticket: 352491343, Comment: 'Gemini V9 (0.71)'
+Ticket: 352508121, Comment: 'Gemini V9 (0.76)'
+Ticket: 352581198, Comment: 'Gemini V9 (0.86)'
+Ticket: 352604701, Comment: 'Gemini V9 (0.86)'
+Ticket: 352606107, Comment: 'Gemini V9 (0.86)'
+Ticket: 352606899, Comment: 'Gemini V9 (0.86)'
+Ticket: 352636076, Comment: 'Gemini V12 Entry'
+Ticket: 352640325, Comment: 'Gemini V12 Entry'
+Ticket: 352641115, Comment: 'Gemini V12 Entry'
+Ticket: 352641559, Comment: 'Gemini V12 Entry'
+Ticket: 352645737, Comment: 'Gemini V12 Entry'
+Ticket: 352745539, Comment: 'Gemini V9 (0.92)'
+Ticket: 352747668, Comment: 'Gemini V12 Entry'
+Ticket: 352748935, Comment: 'Gemini V9 (0.95)'
+Ticket: 352760592, Comment: 'Gemini V9 (0.70)'
+Ticket: 352760994, Comment: 'Gemini V9 (0.89)'
+Ticket: 352761398, Comment: 'Gemini V9 (0.89)'
+Ticket: 352761576, Comment: 'Gemini V9 (0.91)'
+Ticket: 352762452, Comment: 'Gemini V9 (0.95)'
+Ticket: 352772657, Comment: 'Gemini V9 (0.74)'
+Ticket: 352790927, Comment: 'Gemini V9 (0.66)'
+Ticket: 352928647, Comment: 'Gemini V9 (0.70)'
+Ticket: 352929830, Comment: 'Gemini V9 (0.66)'
+Ticket: 352948648, Comment: 'Gemini V9 (0.66)'
+Ticket: 352960394, Comment: 'Gemini V9 (0.65)'
+Ticket: 352961559, Comment: 'Gemini V9 (0.77)'
+Ticket: 352972492, Comment: 'Gemini V9 (Pyram'
+Ticket: 352989103, Comment: 'Gemini V9 (0.68)'
+Ticket: 353009875, Comment: 'Gemini V9 (0.86)'
+Ticket: 353029373, Comment: 'Gemini V9 (0.72)'
+Ticket: 353038318, Comment: 'Gemini V9 (0.66)'
+Ticket: 353067667, Comment: 'Gemini V9 (0.66)'
+Ticket: 353187685, Comment: 'Gemini V9 (0.87)'
+Ticket: 353202900, Comment: 'Gemini V9 (0.85)'

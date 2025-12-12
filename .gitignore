@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment Variables
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# MuZero Specific
+MuZero/results/
+MuZero/weights/
+MuZero/weights_v3/
+*.pkl
+*.log
+
+# Large Archives
+*.zip
+*.tar.gz
+
+# Data
+data/
