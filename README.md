@@ -250,21 +250,29 @@ These folders contain **experimental** and **deprecated** code. They are kept fo
 
 ---
 
-## 📈 Performance Projections (V3.1 Hunger Mode)
+## 💰 Financial Strategy
 
-**Conservative Estimate** (based on V3.0 backtest × 1.5):
-- **Monthly Return**: 20-30%
+This bot is designed for **financial independence through algorithmic trading**.
+
+### 📊 Performance Target (V3.1 Hunger Mode)
+- **Monthly Return**: 20-30% (conservative: 12%)
 - **Win Rate**: 52-58%
 - **Max Drawdown**: <10%
 - **Sharpe Ratio**: ~2.5
 
-**Timeline to Financial Independence** (12% monthly compound):
-- **€10k → €50k**: ~14 months
-- **€50k → €200k (FTMO Challenge)**: +10 months
-- **€200k → €1M**: +12 months
-- **Total**: ~3 years to first million
+### 🚀 Path to Independence
 
-*(See [`plan_financier_v3_1.md`](.gemini/antigravity/brain/6fd3c497-016d-4cfc-a6d0-0d01bc46c398/plan_financier_v3_1.md) for detailed projections)*
+**Prop Firm Scaling Strategy:**
+1. **Month 1-3**: Validate on $10k FTMO → First payouts (€2k)
+2. **Month 4-6**: Scale to $400k prop capital → €29k/month
+3. **Month 7+**: Reach $800k-$1M portfolio → €59k/month (**Financial Independence**)
+
+**Full Breakdown**: See [FINANCIAL_STRATEGY.md](FINANCIAL_STRATEGY.md) for:
+- ✅ Month-by-month projections
+- ✅ Prop firm scaling guide (FTMO, FundedNext)
+- ✅ Risk management rules
+- ✅ 5-year vision (€6M+ net worth)
+- ✅ Sensitivity analysis (what if returns are lower?)
 
 ---
 
