@@ -305,10 +305,12 @@ class MuZeroLiveTrader:
             tp_price = price - (tp_pips * pip_size)
         
         # Dynamic Filling Mode Selection (Fix for Error 10044/10030)
+        # Note: mt5.SYMBOL_FILLING_IOC might be missing in some versions, using int literals
+        # 1 = FOK, 2 = IOC
         filling_type = mt5.ORDER_FILLING_FOK  # Default safe backup
-        if symbol_info.filling_mode & mt5.SYMBOL_FILLING_IOC:
+        if symbol_info.filling_mode & 2: # 2 is SYMBOL_FILLING_IOC
             filling_type = mt5.ORDER_FILLING_IOC
-        elif symbol_info.filling_mode & mt5.SYMBOL_FILLING_FOK:
+        elif symbol_info.filling_mode & 1: # 1 is SYMBOL_FILLING_FOK
             filling_type = mt5.ORDER_FILLING_FOK
         
         request = {

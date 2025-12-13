@@ -53,15 +53,15 @@ class MuZeroConfigV3:
         self.results_path = "MuZero/results_v3"
         self.weights_path = "MuZero/weights_v3"
         
-        # V3 Specific - Pro Trader Rewards
-        self.quality_trade_bonus = 5.0      # +5 pts per 1% trade
-        self.final_growth_bonus = 0.0       # HARD DISABLED (was 100.0)
+        # V3 Specific - Pro Trader Rewards (HUNGER MODE V3.1)
+        self.quality_trade_bonus = 10.0     # +10 pts per 1% trade (DOUBLED from 5.0)
+        self.final_growth_bonus = 50.0      # +50 pts bonus (REACTIVATED from 0.0)
         self.final_growth_threshold = 0.10
        
-        # V3 NEW: SLBE Rewards
-        self.slbe_activation_bonus = 3.0   # +3 pts for activating SLBE
-        self.split_with_profit_bonus = 5.0  # +5 pts for smart SPLIT
-        self.close_big_winner_bonus = 7.5   # +7.5 pts for CLOSE >+2%
+        # V3 NEW: SLBE Rewards (HUNGER MODE - DOUBLED)
+        self.slbe_activation_bonus = 6.0    # +6 pts for activating SLBE (was 3.0)
+        self.split_with_profit_bonus = 10.0 # +10 pts for smart SPLIT (was 5.0)
+        self.close_big_winner_bonus = 15.0  # +15 pts for CLOSE >+2% (was 7.5)
         
         # V3 NEW: Time Penalties (INCREASED)
         self.drawdown_time_penalty_rate = 0.2   # -0.2 per 20 steps (was 0.05)
