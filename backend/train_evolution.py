@@ -8,13 +8,19 @@ import argparse
 from datetime import datetime, timedelta
 from scipy.optimize import differential_evolution
 from rich.console import Console
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 console = Console()
 
 # CONFIG
-LOGIN = 1512112659
-PASSWORD = "8Ee7B$z54"
-SERVER = "FTMO-Demo"
+LOGIN = os.getenv("MT5_LOGIN")
+if LOGIN:
+    LOGIN = int(LOGIN)
+PASSWORD = os.getenv("MT5_PASSWORD")
+SERVER = os.getenv("MT5_SERVER")
 TIMEFRAME = mt5.TIMEFRAME_M15
 CONFIG_FILE = "gemini_config.json"
 
