@@ -9,22 +9,28 @@ import sys
 import joblib
 import requests
 import threading
+from dotenv import load_dotenv
 from datetime import datetime, timedelta
 from sklearn.preprocessing import StandardScaler
 from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import HistGradientBoostingClassifier, VotingClassifier
 from database import SessionLocal, Trade, Event, Snapshot
 
+# Load environment variables
+load_dotenv()
+
 # --- CONFIG ---
-LOGIN = 1512117588
-PASSWORD = "?9?j7fY3s$*!?*"
-SERVER = "FTMO-Demo"
+LOGIN = os.getenv("MT5_LOGIN")
+if LOGIN:
+    LOGIN = int(LOGIN)
+PASSWORD = os.getenv("MT5_PASSWORD")
+SERVER = os.getenv("MT5_SERVER")
 CONFIG_FILE = "gemini_config.json"
 MEMORY_FOLDER = "gemini_memory"
 HISTORY_FILE = f"{MEMORY_FOLDER}/trade_history.csv"
 DAILY_LOSS_LIMIT = -500.0
-TELEGRAM_TOKEN = "6660646226:AAEwerIp1t_i5mToXseSFeic3ryrzTXmF-U"
-TELEGRAM_CHAT_ID = "-5009131528"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 NEWS_URL = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
 
 SESSIONS = {
