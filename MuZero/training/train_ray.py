@@ -89,9 +89,9 @@ def train_ray():
             value, reward, policy_logits, hidden_state = agent.network.initial_inference(obs_batch)
             
             total_loss = 0
-            policy_loss_sum = 0
-            value_loss_sum = 0
-            reward_loss_sum = 0
+            policy_loss_accum = 0
+            value_loss_accum = 0
+            reward_loss_accum = 0
             
             # Unroll
             for k in range(config.num_unroll_steps):
@@ -100,22 +100,27 @@ def train_ray():
                 policy_pred = F.softmax(policy_logits, dim=1)
                 current_policy_loss = torch.sum(-policy_target[:, k] * torch.log(policy_pred + 1e-8)) / config.batch_size
                 total_loss += current_policy_loss * 2.0 
-                policy_loss_sum += current_policy_loss.item()
+                policy_loss_accum += current_policy_loss
                 
                 # Value Loss (War Machine: 0.5)
                 current_value_loss = F.mse_loss(value.squeeze(-1), value_target[:, k])
                 total_loss += current_value_loss * 0.5
-                value_loss_sum += current_value_loss.item()
+                value_loss_accum += current_value_loss
                 
                 # Reward Loss (War Machine: 2.0)
                 if k > 0:
                     current_reward_loss = F.mse_loss(reward.squeeze(-1), reward_target[:, k])
                     total_loss += current_reward_loss * 2.0
-                    reward_loss_sum += current_reward_loss.item()
+                    reward_loss_accum += current_reward_loss
                 
                 # Dynamics
                 action = action_batch[:, k]
                 value, reward, policy_logits, hidden_state = agent.network.recurrent_inference(hidden_state, action)
+
+            # Move scalar conversions outside the loop to avoid blocking synchronization
+            policy_loss_sum = policy_loss_accum.item() if isinstance(policy_loss_accum, torch.Tensor) else policy_loss_accum
+            value_loss_sum = value_loss_accum.item() if isinstance(value_loss_accum, torch.Tensor) else value_loss_accum
+            reward_loss_sum = reward_loss_accum.item() if isinstance(reward_loss_accum, torch.Tensor) else reward_loss_accum
                 
                 # Hook for gradient clipping (on hidden state?) - Pytorch handles it on backward
                 
