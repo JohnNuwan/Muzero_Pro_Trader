@@ -579,23 +579,38 @@ class GeminiCore:
 
     # --- NEWS FILTER ---
     def update_news_cache(self):
+        # Check if update is needed (every 4 hours or if empty)
         if time.time() - self.last_news_update < 14400 and len(self.news_cache) > 0: return
+
+        # Check if update is already running
+        if hasattr(self, 'news_update_thread') and self.news_update_thread.is_alive():
+            return
+
+        # Start background update
+        self.news_update_thread = threading.Thread(target=self._fetch_news_background)
+        self.news_update_thread.start()
+
+    def _fetch_news_background(self):
         try:
             response = requests.get(NEWS_URL, timeout=10)
             if response.status_code == 200:
                 data = response.json()
-                self.news_cache = []
+                new_cache = []
                 for event in data:
                     if event.get('impact') == 'High' and event.get('country') in ['USD', 'EUR', 'GBP']:
                         try:
                             dt = datetime.fromisoformat(event['date'])
-                            self.news_cache.append({
+                            new_cache.append({
                                 "title": event['title'],
                                 "country": event['country'],
                                 "timestamp": dt.timestamp()
                             })
                         except: continue
+
+                # Atomic update
+                self.news_cache = new_cache
                 self.last_news_update = time.time()
+                self.log(f"News updated: {len(self.news_cache)} events", "INFO")
         except Exception as e:
             print(f"News Error: {e}")
             # Fallback: If news API fails, we don't block trading but log warning
