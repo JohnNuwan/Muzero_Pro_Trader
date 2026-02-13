@@ -9,22 +9,25 @@ import sys
 import joblib
 import requests
 import threading
+from dotenv import load_dotenv
 from datetime import datetime, timedelta
 from sklearn.preprocessing import StandardScaler
 from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import HistGradientBoostingClassifier, VotingClassifier
 from database import SessionLocal, Trade, Event, Snapshot
 
+load_dotenv()
+
 # --- CONFIG ---
-LOGIN = 1512117588
-PASSWORD = "?9?j7fY3s$*!?*"
-SERVER = "FTMO-Demo"
+LOGIN = int(os.getenv("LOGIN", "0"))
+PASSWORD = os.getenv("PASSWORD", "")
+SERVER = os.getenv("SERVER", "")
 CONFIG_FILE = "gemini_config.json"
 MEMORY_FOLDER = "gemini_memory"
 HISTORY_FILE = f"{MEMORY_FOLDER}/trade_history.csv"
 DAILY_LOSS_LIMIT = -500.0
-TELEGRAM_TOKEN = "6660646226:AAEwerIp1t_i5mToXseSFeic3ryrzTXmF-U"
-TELEGRAM_CHAT_ID = "-5009131528"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 NEWS_URL = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
 
 SESSIONS = {
@@ -1724,7 +1727,16 @@ class GeminiCore:
             return {"stats": {}, "trades": [], "by_symbol": []}
 
     def get_config(self):
-        """Return current configuration params"""
+        """Return current configuration params with sensitive data filtered"""
+        def clean_dict(d):
+            if not isinstance(d, dict): return d
+            cleaned = {}
+            for k, v in d.items():
+                if any(s in k.lower() for s in ["password", "token", "login", "key", "secret", "credential"]):
+                    continue
+                cleaned[k] = clean_dict(v) if isinstance(v, dict) else v
+            return cleaned
+
         return {
             "global": {
                 "daily_loss_limit": DAILY_LOSS_LIMIT,
@@ -1732,16 +1744,32 @@ class GeminiCore:
                 "max_pyramid_layers": 3,
                 "pyramid_risk": 0.005
             },
-            "symbols": self.params
+            "symbols": clean_dict(self.params)
         }
 
     def update_config(self, new_config):
-        """Update configuration dynamically"""
+        """Update configuration dynamically, blocking sensitive keys"""
+        sensitive_patterns = ["password", "token", "login", "key", "secret", "credential"]
+
         if "global" in new_config:
             # Update global vars (in a real app, these should be class attributes)
             pass 
         
         if "symbols" in new_config:
+            # Deep check for sensitive keys
+            def has_sensitive_keys(d):
+                for k, v in d.items():
+                    if any(s in k.lower() for s in sensitive_patterns):
+                        return True
+                    if isinstance(v, dict):
+                        if has_sensitive_keys(v):
+                            return True
+                return False
+
+            if has_sensitive_keys(new_config["symbols"]):
+                self.log("Blocked attempt to update sensitive configuration", "WARN")
+                return False
+
             self.params.update(new_config["symbols"])
             # Save to file
             try:
