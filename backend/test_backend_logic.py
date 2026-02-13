@@ -1,5 +1,10 @@
 import unittest
+import sys
 from unittest.mock import MagicMock, patch
+
+# Mock MetaTrader5 before importing gemini_core
+sys.modules['MetaTrader5'] = MagicMock()
+
 from datetime import datetime, timedelta
 from gemini_core import GeminiCore
 from database import Trade
