@@ -1,17 +1,29 @@
 import MetaTrader5 as mt5
 from datetime import datetime, timedelta
-import json
+import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 def check_comments():
-    with open("gemini_config.json", "r") as f:
-        config = json.load(f)
-        
-    LOGIN = 51162779
-    PASSWORD = " m8hJ!cK9"
-    SERVER = "FTMO-Demo"
+    # Retrieve credentials from environment variables
+    LOGIN = os.getenv("MT5_LOGIN")
+    PASSWORD = os.getenv("MT5_PASSWORD")
+    SERVER = os.getenv("MT5_SERVER")
+
+    if not LOGIN or not PASSWORD or not SERVER:
+        print("Error: MT5 credentials not found in environment variables.")
+        return
+
+    try:
+        LOGIN = int(LOGIN)
+    except ValueError:
+        print("Error: MT5_LOGIN must be an integer.")
+        return
     
     if not mt5.initialize(login=LOGIN, password=PASSWORD, server=SERVER):
-        print("MT5 Init Failed")
+        print(f"MT5 Init Failed: {mt5.last_error()}")
         return
 
     from_date = datetime.now() - timedelta(days=30)
