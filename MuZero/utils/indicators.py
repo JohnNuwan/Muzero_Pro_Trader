@@ -458,27 +458,3 @@ if __name__ == "__main__":
             print(f"Processed H1: {df_h1.shape}")
             print(df_h1[['close', 'rsi', 'linreg_angle', 'pivot', 'fibo_pos', 'dist_to_res']].tail())
         mt5.shutdown()
-
-if __name__ == "__main__":
-    # Test
-    import sys
-    import os
-    # Add project root to path
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    project_root = os.path.abspath(os.path.join(current_dir, '..', '..'))
-    sys.path.append(project_root)
-    
-    from MuZero.utils.mtf_data_loader import MultiTimeframeLoader
-    import MetaTrader5 as mt5
-    
-    if mt5.initialize():
-        loader = MultiTimeframeLoader()
-        data = loader.get_data("EURUSD", 5000)
-        if data:
-            df_h1 = data["H1"]
-            print(f"Raw H1: {df_h1.shape}")
-            
-            df_h1 = Indicators.add_all(df_h1)
-            print(f"Processed H1: {df_h1.shape}")
-            print(df_h1[['close', 'rsi', 'linreg_angle', 'pivot', 'fibo_pos', 'dist_to_res']].tail())
-        mt5.shutdown()
