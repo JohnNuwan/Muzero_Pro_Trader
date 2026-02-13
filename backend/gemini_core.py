@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import json
 import os
+import re
 import time
 import subprocess
 import sys
@@ -92,6 +93,12 @@ class GeminiCore:
         except Exception as e:
             self.log(f"Error fetching history: {e}", "ERROR")
             return []
+
+    def validate_symbol(self, symbol):
+        """Validates that the symbol contains only alphanumeric characters, dots, or underscores."""
+        if not symbol or not isinstance(symbol, str):
+            return False
+        return bool(re.match(r'^[a-zA-Z0-9._]+$', symbol))
         
     def load_config(self):
         try:
@@ -893,6 +900,10 @@ class GeminiCore:
         return 0
 
     def trigger_evolution(self, symbol):
+        if not self.validate_symbol(symbol):
+            self.log(f"Invalid symbol for evolution: {symbol}", "ERROR")
+            return False
+
         if symbol not in self.evolving_symbols:
             self.log(f"🧬 TRIGGERING EVOLUTION FOR {symbol}", "WARN")
             self.send_telegram(f"🧬 *DARWIN TRIGGERED: {symbol}* 🧬\nReason: 4 Recent Losses.")
@@ -1576,6 +1587,10 @@ class GeminiCore:
             return {"sharpe": 0, "drawdown": 0, "profit_factor": 0, "win_rate": 0, "total_trades": 0, "equity_curve": []}
 
     def trigger_evolution(self, symbol):
+        if not self.validate_symbol(symbol):
+            self.log(f"Invalid symbol for evolution: {symbol}", "ERROR")
+            return False
+
         try:
             # Check if already evolving
             if symbol in self.evolving_symbols and self.evolving_symbols[symbol]:
